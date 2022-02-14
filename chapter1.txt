@@ -14,3 +14,9 @@ git commit -m "Commit message Here."
 If you have changed the content of file and want to check the difference between current state and last version state then - git diff <filename.txt>
 
 If you want to revertback/rollback to last version then use - git checkout <filename1.txt>
+
+// Now we will upload all this to a remote GitHub Repository i.e my github account warhead32, so first add the link to github account
+git remote add origin https://github.com/Warhead32/gitTut
+
+// Now push all the files to that repository
+git push -u origin master // origin is the variable that contains url to repo, push is used to push to repo, and master indicates the master branch of repo
