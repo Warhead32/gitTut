@@ -1,1 +1,10 @@
 This is the first chapter of my file.
+
+Git is used to track changes in our project, version control, and also has the ability to roll back the project to earlier build.
+
+To use git on a project it needs to be initialized first - git init
+
+In order to track file we need to add it to GIT staging area using command - git add <filename.txt>
+
+Then commit the file -
+git commit -m "Commit message Here."
