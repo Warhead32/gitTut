@@ -6,5 +6,11 @@ To use git on a project it needs to be initialized first - git init
 
 In order to track file we need to add it to GIT staging area using command - git add <filename.txt>
 
+Check if the files are in staging area or modified by using - git status
+
 Then commit the file -
 git commit -m "Commit message Here."
+
+If you have changed the content of file and want to check the difference between current state and last version state then - git diff <filename.txt>
+
+If you want to revertback/rollback to last version then use - git checkout <filename1.txt>
